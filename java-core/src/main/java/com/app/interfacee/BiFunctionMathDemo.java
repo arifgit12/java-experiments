@@ -30,7 +30,6 @@ public class BiFunctionMathDemo {
         float value1 = 10.0f;
         float value2 = 5.0f;
 
-
         // Create a map with lambda expressions for mathematical operations
         Map<String, BiFunction<Float, Float, Float>> operationMap = new HashMap<>();
         operationMap.put(ADD, (a, b) -> a+b);
